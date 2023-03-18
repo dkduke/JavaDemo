@@ -1,0 +1,30 @@
+
+
+public final class com.dk.constant.ActivityStatusEnum
+        extends java.lang.Enum<com.dk.constant.ActivityStatusEnum> {
+
+    public static final com.dk.constant.ActivityStatusEnum ACT_SUCCESS;
+    public static final com.dk.constant.ActivityStatusEnum ACT_NOT_START;
+    public static final com.dk.constant.ActivityStatusEnum ACT_END;
+    public static final com.dk.constant.ActivityStatusEnum ACT_OFFLINE;
+    public static final com.dk.constant.ActivityStatusEnum ACT_NOT_EXIST;
+
+    public static com.dk.constant.ActivityStatusEnum[] values();
+
+    public static com.dk.constant.ActivityStatusEnum valueOf(java.lang.String);
+
+    public static com.dk.constant.ActivityStatusEnum getCode(java.lang.Integer);
+
+    public java.lang.Integer getCode();
+
+    public java.lang.String getMsg();
+
+    public void setMsg(java.lang.String);
+
+    public java.lang.String getMsgDesc();
+
+    public void setMsgDesc(java.lang.String);
+
+    static {};
+}
+

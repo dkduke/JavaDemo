@@ -1,0 +1,98 @@
+{
+  "groups": [
+    {
+      "name": "bookstore.thread",
+      "type": "com.duke.boot.properties.ThreadPoolConfigProperties",
+      "sourceType": "com.duke.boot.properties.ThreadPoolConfigProperties"
+    },
+    {
+      "name": "cat",
+      "type": "com.duke.boot.bean.Cat",
+      "sourceType": "com.duke.boot.bean.Cat"
+    },
+    {
+      "name": "com.duke",
+      "type": "com.duke.boot.domain.FooProperties",
+      "sourceType": "com.duke.boot.domain.FooProperties"
+    },
+    {
+      "name": "mycar",
+      "type": "com.duke.boot.bean.Car",
+      "sourceType": "com.duke.boot.bean.Car"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bookstore.thread.core-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.duke.boot.properties.ThreadPoolConfigProperties"
+    },
+    {
+      "name": "bookstore.thread.keep-alive-time",
+      "type": "java.lang.Integer",
+      "description": "Description for bookstore.thread.keep-alive-time.",
+      "sourceType": "com.duke.boot.properties.ThreadPoolConfigProperties"
+    },
+    {
+      "name": "bookstore.thread.max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.duke.boot.properties.ThreadPoolConfigProperties"
+    },
+    {
+      "name": "cat.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.duke.boot.bean.Cat"
+    },
+    {
+      "name": "cat.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.duke.boot.bean.Cat"
+    },
+    {
+      "name": "cat.interests",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.duke.boot.bean.Cat"
+    },
+    {
+      "name": "cat.name",
+      "type": "java.lang.String",
+      "sourceType": "com.duke.boot.bean.Cat"
+    },
+    {
+      "name": "cat.pet",
+      "type": "com.duke.boot.bean.Pet",
+      "sourceType": "com.duke.boot.bean.Cat"
+    },
+    {
+      "name": "cat.score",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.duke.boot.bean.Cat"
+    },
+    {
+      "name": "com.duke.foo",
+      "type": "java.lang.String",
+      "sourceType": "com.duke.boot.domain.FooProperties"
+    },
+    {
+      "name": "logging.home.path",
+      "type": "java.lang.String",
+      "description": "Description for logging.home.path."
+    },
+    {
+      "name": "mycar.brand",
+      "type": "java.lang.String",
+      "sourceType": "com.duke.boot.bean.Car"
+    },
+    {
+      "name": "mycar.price",
+      "type": "java.lang.Integer",
+      "sourceType": "com.duke.boot.bean.Car"
+    },
+    {
+      "name": "sirector.wrapper.timeout",
+      "type": "java.lang.Long",
+      "description": "Description for sirector.wrapper.timeout."
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "logging.home.path",
+      "type": "java.lang.String",
+      "description": "Description for logging.home.path."
+    },
+    {
+      "name": "bookstore.thread.keep-alive-time",
+      "type": "java.lang.String",
+      "description": "Description for bookstore.thread.keep-alive-time."
+    },
+    {
+      "name": "sirector.wrapper.timeout",
+      "type": "java.lang.Long",
+      "description": "Description for sirector.wrapper.timeout."
+    }
+  ] }

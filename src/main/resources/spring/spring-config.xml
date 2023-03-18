@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jsf="http://jsf.jd.com/schema/jsf"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+
+       http://jsf.jd.com/schema/jsf http://jsf.jd.com/schema/jsf/jsf.xsd"
+       default-autowire="byName">
+
+    <bean id="proxy" class="com.duke.boot.sirector.proxy.MyEventProxy" />
+    <bean id="execute1" class="com.jd.m.sirector.wrapper.spring.EventExecuteFactoryBean" >
+        <property name="event" value="method1 : 2, method2 | method3 | method4, method5 | method6"/>
+        <property name="proxy" ref="proxy" />
+        <property name="debug" value = "true"/>
+        <property name="timeout" value="10000"/>
+    </bean>
+
+</beans>

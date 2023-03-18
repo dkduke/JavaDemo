@@ -1,0 +1,43 @@
+cat:
+  name: tom
+#  score:
+#    english: 80
+#    math: 90
+  score: {english:80, math:90}
+#  interests: [篮球, 足球]
+  interests:
+    - 篮球
+    - 足球
+  age: 3
+  birth: 1999/9/9
+  pet:
+    name: 阿狗
+
+bookstore:
+  thread:
+    core-size: 20
+    max-size: 200
+    keep-alive-time: 10
+
+#
+#spring:
+#  profiles:
+#    active: dev
+
+#sirector:
+#  wrapper:
+#    timeout: 1000
+
+server:
+  port: 8888 # 端口: 8080
+#spring:
+#  gobrs:
+#    async:
+#      rules:
+#        # 支持多命名空间
+#        - name: "ruleName" # 规则名称
+#          content: "AService->BService,CService,FService; BService->FService,GService;"
+#        - name: "azh"
+#          content: "AService->BService,CService,FService; BService->FService,GService;"
+#      task-interrupt: false #局部异常是否打断主流程
+
